@@ -3,7 +3,7 @@ body{
   background: rgb(250,250,250);
   color: grey;
   font-size: 15px;
-  font-family: Helvetica;
+  font-family: Lato;
 }
 
 h1{
@@ -32,15 +32,17 @@ a:hover {
 
 #banner{
   text-align: center;
-  background-image: 
-  
+  background-image: url(https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?h=350&auto=compress&cs=tinysrgb);
+  background-size: cover;
+  padding: 150px;
+
 }
 #banner h1 {
-  color: grey;
+  color: (25,25,25);
   font-size: 50px;
 }
 #banner p {
-  color: grey;
+  color: white;
   opacity: 0.8;
   font-size: 30px;
   font-weight: lighter;
@@ -51,6 +53,9 @@ a:hover {
   color: lightgrey;
 }
 .card{
-  padding: 50px;
   font-weight: lighter;
+  padding:50px;
 }
+
+.flotte {
+float:left;}
